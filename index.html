@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Peak Pick App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!--Allow use of interactive charts-->
+        <script src="https://d3js.org/d3.v2.js"></script>
+        <script src="https://d3js.org/d3.v2.min.js"></script>
+        
+        <!--JQuery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+        <!--Add google font-->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Peak Picker App</h1>
+
+        <div class='container'>
+            <div id="graph">
+                <!--Chart goes here-->
+            </div>
+        </div>
+
+        <div class='optionsBar'> 
+            <div class='buttonContainer'>
+                <button class="button" id="uploadButton" type="button">Upload Data</button>    
+                <input type="file" id="input-file" name="files[]" hidden/>
+            </div> 
+
+            <div class='buttonContainer'>
+                <button class ='button' id="plotButton" type="button">Plot Data</button>
+            </div>
+
+            <div class='buttonContainer'>
+                    <button class ='button' id="zoomPanButton" type="button">Zoom/Pan</button>
+            </div>
+
+            <div class='buttonContainer'>
+                    <button class ='button' id="selectPeakButton" type="button">Select Peak</button>
+            </div>
+        </div>
+
+
+
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

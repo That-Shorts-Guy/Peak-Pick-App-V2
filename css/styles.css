@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle { /*Graph points*/
+    fill: steelblue;
+}
+
+
+.container { /*size of graph*/
+ height: 70vh; /*70*/
+ width: 70vw; /*70*/
+ float: left;
+}
+
+.optionsBar {
+    width: 975px;
+    height: 80px;
+}
+
+.buttonContainer {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    float: left;
+    margin: 5px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#uploadButton { /*Default settings for this button*/
+    background-color: rgba(0,0,0,0.2);
+}
+
+#selectPeakButton { /*Default settings for this button*/
+    background-color: rgba(0,0,0,0.2);
+    border: 4px solid red;
+}
+
+/*Connecting points on graph*/
+path {
+    stroke: steelblue;
+    stroke-width: 1.5;
+    fill: none;
+}
+
+.axis path,
+.axis line { /*graph axes*/
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+rect {
+    fill: white;
+  }
