@@ -11,6 +11,6 @@ Current Functionality
                             
 -Allows user to plot this uploaded data
 
--Zoom feature has been added although issues with this not scaling the axes
+-Zoom feature has been added although issues with this. Currently, the axes scale with the graph however the graph will appear outside the axes limits.
 
 -similiar issue with panning, allows user to move graph outside of axes
